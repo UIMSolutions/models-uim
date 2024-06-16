@@ -1,0 +1,19 @@
+{
+    "authors": ["Ozan Nurettin Süel (Sicherheitsschmiede)"],
+    "copyright": "Copyright © 2017 - 2020, UI Manufaktur UG",
+    "description": "Model for ERP applications",
+    "license": "Apache-2.0",
+    "name": "model-erp",
+    "sourcePaths": [
+        "../../LIBS/uim-core",
+        "../../LIBS/uim-oop",
+        "../../LIBS/uim-models",
+        "./"
+    ],
+    "importPaths": [
+        "../../LIBS/uim-core",
+        "../../LIBS/uim-oop",
+        "../../LIBS/uim-models",
+        "./"
+    ]
+}
