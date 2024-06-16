@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/model-healthcare
+model-healthcare.so
+model-healthcare.dylib
+model-healthcare.dll
+model-healthcare.a
+model-healthcare.lib
+model-healthcare-test-*
+*.exe
+*.o
+*.obj
+*.lst
+dub.selections.json
