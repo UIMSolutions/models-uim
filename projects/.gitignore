@@ -1,0 +1,34 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# DUB
+.dub
+docs.json
+dub.selections.json
+
+/model-privacy
+model-privacy.so
+model-privacy.dylib
+model-privacy.dll
+model-privacy.a
+model-privacy.lib
+model-privacy-test-*
+*.exe
+*.o
+*.obj
+*.lst
+model-projects-test-offline
+dub.selections.json
