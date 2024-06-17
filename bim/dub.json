@@ -1,0 +1,23 @@
+{
+    "name": "model-common",
+    "authors": ["UI Manufaktur UG"],
+    "copyright": "Copyright © 2017 - 2020, UI Manufaktur UG",
+    "description": "Model for MS Common Data Model",
+    "license": "MIT",
+    "targetType": "library",
+    "dependencies": {
+        "vibe-d": "~>0.9.3"
+    },
+ 	"sourcePaths": [
+		"../../LIBS/uim-core",
+		"../../LIBS/uim-oop",
+        "../../LIBS/uim-models",
+		"./"
+	],
+	"importPaths": [
+		"../../LIBS/uim-core",
+		"../../LIBS/uim-oop",
+        "../../LIBS/uim-models",
+		"./"
+	]
+}
