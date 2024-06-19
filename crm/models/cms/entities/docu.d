@@ -10,7 +10,7 @@ class DCMSDocu : DCMSPost {
     super.initialize(configSettings);
     
     this
-      .addValues([
+      .addData([
         "docu": UUIDAttribute
       ]) 
     .registerPath("cms_docus")

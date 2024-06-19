@@ -10,7 +10,7 @@ class DCMSPage : DCMSEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "keywords": TagsAttribute,
         "isPrivate": BooleanAttribute,
         "page": UUIDAttribute,

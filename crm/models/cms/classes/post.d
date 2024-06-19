@@ -10,7 +10,7 @@ class DCMSPost : DCMSEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "keywords": TagsAttribute, 
         "link": StringAttribute,
         "isPrivate": BooleanAttribute, 
