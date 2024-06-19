@@ -10,7 +10,7 @@ class DProjectCDSContractLineMilestoneImportEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "transactionId": UUIDAttribute, //
         "contractLineRef": StringAttribute, //
         "invoiceDate": DateAttribute, //

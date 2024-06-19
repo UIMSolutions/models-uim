@@ -11,7 +11,7 @@ class DProjectCDSActualsImportEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "accountingDate": DateAttribute, //
         "actualId": UUIDAttribute, //
         "actualsImportId": UUIDAttribute, //

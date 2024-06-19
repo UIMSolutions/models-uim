@@ -10,7 +10,7 @@ class DProjectCDSTaskEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "task": StringAttribute, //
         "parentTask": StringAttribute, //
         "workBreakdownStructureId": UUIDAttribute, //

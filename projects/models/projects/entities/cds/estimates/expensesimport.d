@@ -10,7 +10,7 @@ class DProjectCDSEstimateExpensesImportEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "taskId": UUIDAttribute, //
         "projectId": UUIDAttribute, //
         "exchangeRate": StringAttribute, //

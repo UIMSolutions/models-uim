@@ -10,7 +10,7 @@ class DProjectCategoryGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "categoryGroupId": UUIDAttribute, //
         "categoryType": StringAttribute, //
         "name": StringAttribute, //

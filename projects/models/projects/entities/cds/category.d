@@ -10,7 +10,7 @@ class DProjectCDSCategoryEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "categoryId": UUIDAttribute, //
         "sharedCategory": StringAttribute, //
         "integrationId": UUIDAttribute, //

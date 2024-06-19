@@ -10,7 +10,7 @@ class DProjectCDSContractLineImportEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "transactionId": UUIDAttribute, //
         "contractId": UUIDAttribute, //
         "contractLine": StringAttribute, //

@@ -10,7 +10,7 @@ class DProjectCDSProjectContractEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "projectContractId": UUIDAttribute, //
         "customerAccount": StringAttribute, //
         "name": StringAttribute, //

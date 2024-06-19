@@ -10,7 +10,7 @@ class DProjectCDSEstimateHoursEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "taskId": UUIDAttribute, //
         "description": StringAttribute, //
         "projectId": UUIDAttribute, //

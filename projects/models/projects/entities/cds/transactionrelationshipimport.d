@@ -10,7 +10,7 @@ class DProjectCDSTransactionRelationshipImportEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "connectionId": UUIDAttribute, //
         "transaction1Id": UUIDAttribute, //
         "transaction1Role": StringAttribute, //
