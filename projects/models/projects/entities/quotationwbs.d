@@ -10,7 +10,7 @@ class DProjectQuotationWbsEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "quotationId": UUIDAttribute, //
         "hierarchyId": UUIDAttribute, //
         "taskId": UUIDAttribute, //

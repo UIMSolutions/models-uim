@@ -10,7 +10,7 @@ class DProjectIntercompanyParameterEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "borrowingLegalEntity": StringAttribute, //
         "defaultExpenseCategory": StringAttribute, //
         "defaultTimesheetCategory": StringAttribute, //

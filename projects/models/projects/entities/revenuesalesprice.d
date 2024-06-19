@@ -10,7 +10,7 @@ class DProjectRevenueSalesPriceEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "categoryId": UUIDAttribute, //
         "salesCurrency": StringAttribute, //
         "projectId": UUIDAttribute, //

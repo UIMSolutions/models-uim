@@ -10,7 +10,7 @@ class DProjectStageEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "Language": StringAttribute, //
         "Status": StringAttribute, //
         "Stage": StringAttribute, //

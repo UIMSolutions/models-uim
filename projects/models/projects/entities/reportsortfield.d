@@ -10,7 +10,7 @@ class DProjectReportSortFieldEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "Description": StringAttribute, //
         "SortCode": StringAttribute, //
         "SortingId": UUIDAttribute, //

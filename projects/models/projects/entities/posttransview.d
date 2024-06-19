@@ -10,7 +10,7 @@ class DProjectPostTransViewEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "categoryId": UUIDAttribute, //
         "currencyId": UUIDAttribute, //
         "itemId": UUIDAttribute, //

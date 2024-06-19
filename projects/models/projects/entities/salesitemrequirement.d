@@ -10,7 +10,7 @@ class DProjectSalesItemRequirementEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "activityNumber": StringAttribute, //
         "barCode": StringAttribute, //
         "barCodeType": StringAttribute, //

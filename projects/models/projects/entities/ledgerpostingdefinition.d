@@ -10,7 +10,7 @@ class DProjectLedgerPostingDefinitionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "projectAccountType": StringAttribute, //
         "projectId": UUIDAttribute, //
         "projectGroup": StringAttribute, //

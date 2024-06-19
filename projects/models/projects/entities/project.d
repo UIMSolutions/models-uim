@@ -10,7 +10,7 @@ class DProjectEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "projectId": UUIDAttribute, //
         "alternateProjectId": UUIDAttribute, //
         "bankDocumentType": StringAttribute, //

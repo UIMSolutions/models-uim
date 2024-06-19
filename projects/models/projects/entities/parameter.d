@@ -10,7 +10,7 @@ class DProjectParameterEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "itemLumpSumAllocationKey": StringAttribute, //
         "termsOfPaymentForHours": StringAttribute, //
         "actualCostAfterEstimateDate": DateAttribute, //

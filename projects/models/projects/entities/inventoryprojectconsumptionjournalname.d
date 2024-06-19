@@ -10,7 +10,7 @@ class DProjectInventoryProjectConsumptionJournalNameEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "journalNameId": UUIDAttribute, //
         "defaultJournalDescription": StringAttribute, //
         "isPostingDeletingLinesByDefault": StringAttribute, //
