@@ -11,7 +11,7 @@ class DTogafAbbEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "id": StringAttribute, 
         "name": StringAttribute
       ])
