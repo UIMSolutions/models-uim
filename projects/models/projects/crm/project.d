@@ -11,7 +11,7 @@ class DPRJProject : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "createdOnBehalfId": UUIDAttribute, // Shows who created the record on behalf of another user."]),
         "modifiedOnBehalfId": UUIDAttribute, // Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),
