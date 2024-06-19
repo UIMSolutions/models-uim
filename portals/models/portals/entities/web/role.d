@@ -11,7 +11,7 @@ class DPortalWebRoleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user.,
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.,
         OwnerIdAttribute, 
@@ -19,7 +19,7 @@ class DPortalWebRoleEntity : DEntity {
         WebRoleIdAttribute, // Unique identifier for entity instances,
         WebSiteIdAttribute, // Unique identifier for Website associated with Web Role.,
       ])
-      .addValues([
+      .addData([
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.,
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record.,
         "ownerIdType": StringAttribute, // The type of owner, either User or Team.,

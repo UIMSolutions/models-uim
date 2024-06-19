@@ -11,14 +11,14 @@ class DPortalWebTemplateEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user.
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
         StateCodeAttribute, // Status of the Web Template
         StatusCodeAttribute, // Select the web template's status.
         WebSiteIdAttribute, // Unique identifier for Website associated with Web Template
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "organizationId": UUIDAttribute, // Shows the organization.
         "importSequenceNumber": NumberAttribute, //Shows the sequence number of the import that created this record.
         "overriddenCreatedOn": TimestampAttribute, // Shows the date and time that the record was migrated.

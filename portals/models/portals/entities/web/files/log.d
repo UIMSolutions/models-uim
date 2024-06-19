@@ -11,7 +11,7 @@ class DPortalWebFileLogEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         ContactIdAttribute, // en":"Unique identifier of the Contact associated with the Web File Log
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user.
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
@@ -20,7 +20,7 @@ class DPortalWebFileLogEntity : DEntity {
         StatusCodeAttribute, // Select the web file log's status.
         WebFileIdAttribute, // Unique identifier of the Web File associated with the Web File Log
       ])
-      .addValues([
+      .addData([
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record.
         "ownerIdType": StringAttribute, // The type of owner, either User or Team.

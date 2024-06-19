@@ -11,7 +11,7 @@ class DPortalWebPageLogEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         ContactIdAttribute, // en":"Unique identifier of the Contact associated with the Web Page Log
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user.
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
@@ -20,7 +20,7 @@ class DPortalWebPageLogEntity : DEntity {
         StatusCodeAttribute, // Select the webpage log's status.
         WebPageIdAttribute, // Unique identifier of the Web Page associated with the Web Page Log
       ])
-      .addValues([
+      .addData([
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record.
         "ownerIdType": StringAttribute, // The type of owner, either User or Team.
