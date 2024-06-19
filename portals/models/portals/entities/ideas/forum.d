@@ -11,7 +11,7 @@ class DPortalIdeaForumEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user. 
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
         OwnerIdAttribute, // Owner Id
@@ -20,7 +20,7 @@ class DPortalIdeaForumEntity : DEntity {
         WebSiteIdAttribute, // Shows the website associated with the idea forum.
         WebSiteLanguageIdAttribute, // Option to make idea forums language specific
       ])
-      .addValues([
+      .addData([
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record.
         "ownerIdType": StringAttribute, // The type of owner, either User or Team.

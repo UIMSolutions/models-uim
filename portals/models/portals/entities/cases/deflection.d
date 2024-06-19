@@ -11,14 +11,14 @@ class DPortalCaseDeflectionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user.
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
         OwnerIdAttribute, // Owner Id
         StateCodeAttribute, // Status of the Case Deflection
         StatusCodeAttribute, // Reason for the status of the Case Deflection
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
         "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record.
         "ownerIdType": StringAttribute, // The type of owner, either User or Team.

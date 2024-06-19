@@ -11,7 +11,7 @@ class DPortalForumEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user. "]),
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user."]),
         OwnerIdAttribute, // Owner Id"]),
@@ -19,7 +19,7 @@ class DPortalForumEntity : DEntity {
         StatusCodeAttribute, // Select the forum's status.
         WebSiteIdAttribute, // Shows the Website associated with the forum."]),
       ])
-      .addValues([
+      .addData([
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record."]),
         "owningBusinessUnitId": BusinessUnitIdAttribute, // Unique identifier for the business unit that owns the record"]),

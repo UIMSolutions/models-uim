@@ -11,14 +11,14 @@ class DPortalForumPostEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user. 
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
         OwnerIdAttribute, // Owner Id
         StateCodeAttribute, // Status of the Forum Post
         StatusCodeAttribute, // Select the forum post's status.
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record.
         "owningBusinessUnitId": BusinessUnitIdAttribute, // Unique identifier for the business unit that owns the record

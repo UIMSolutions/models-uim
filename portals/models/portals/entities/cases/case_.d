@@ -11,7 +11,7 @@ class DPortalCaseEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         ContactIdAttribute, // en":"Unique identifier of the contact associated with the case. 
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user. 
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user. 
@@ -19,7 +19,7 @@ class DPortalCaseEntity : DEntity {
         StateCodeAttribute, // Shows whether the case is active, resolved, or canceled. Resolved and canceled cases are read-only and can't be edited unless they are reactivated. 
         StatusCodeAttribute, // Select the case's status.
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated. 
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record. 
         "ownerIdType": StringAttribute, // The type of owner, either User or Team. 

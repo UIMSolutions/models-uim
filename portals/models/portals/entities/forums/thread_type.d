@@ -11,7 +11,7 @@ class DPortalForumThreadTypeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user. 
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
         OwnerIdAttribute, // Owner Id
@@ -19,7 +19,7 @@ class DPortalForumThreadTypeEntity : DEntity {
         StatusCodeAttribute, // Select the forum thread type's status.
         WebSiteIdAttribute, // Shows the Website associated with the forum thread type.
       ])
-      .addValues([
+      .addData([
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record.
         "ownerIdType": StringAttribute, // The type of owner, either User or Team.
