@@ -15,7 +15,7 @@ class  DMCRCouponCatalogEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "catalogCode": StringAttribute,
         "couponId": UUIDAttribute,
         "catalogNumber": StringAttribute,

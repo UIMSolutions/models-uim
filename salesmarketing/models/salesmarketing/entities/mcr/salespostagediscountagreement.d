@@ -15,7 +15,7 @@ class  DMCRSalesPostageDiscountAgreementEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "accountCode": StringAttribute,
         "accountRelation": StringAttribute,
         "discountAmount": StringAttribute,

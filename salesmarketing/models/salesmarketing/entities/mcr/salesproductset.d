@@ -14,7 +14,7 @@ class  DMCRSalesProductSetEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "productSetNumber": StringAttribute,
         "productSetDescription": StringAttribute,
         "customerAccountNumber": StringAttribute,

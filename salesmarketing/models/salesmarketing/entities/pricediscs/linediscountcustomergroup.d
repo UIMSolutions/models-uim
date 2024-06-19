@@ -10,7 +10,7 @@ class  DPriceDiscLineDiscountCustomerGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "groupCode": StringAttribute, //		SalesAndMarketing/PriceDiscLineDiscountCustomerGroupEntity
         "groupName": StringAttribute, //		SalesAndMarketing/PriceDiscLineDiscountCustomerGroupEntity
         "backingTable_PriceDiscGroupRelationshipId": StringAttribute, //		SalesAndMarketing/PriceDiscLineDiscountCustomerGroupEntity
