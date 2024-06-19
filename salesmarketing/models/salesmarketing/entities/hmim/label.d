@@ -15,7 +15,7 @@ class DHMIMLabelEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "labelCode": StringAttribute, // 		SalesAndMarketing/HMIMLabelEntity
         "description": StringAttribute, // 		SalesAndMarketing/HMIMLabelEntity
         "backingTable_HMIMLabelRelationshipId": StringAttribute, // 		SalesAndMarketing/HMIMLabelEntity

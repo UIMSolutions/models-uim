@@ -15,7 +15,7 @@ class  DHMIMRegulationEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "regCode": StringAttribute, //		SalesAndMarketing/HMIMRegulationEntity
         "description": StringAttribute, //		SalesAndMarketing/HMIMRegulationEntity
         "printAfter": StringAttribute, //		SalesAndMarketing/HMIMRegulationEntity

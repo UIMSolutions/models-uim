@@ -15,7 +15,7 @@ class  DHMIMEMSEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "emsSCode": StringAttribute, // SalesAndMarketing/HMIMEMSEntity
         "description": StringAttribute, // SalesAndMarketing/HMIMEMSEntity
         "backingTable_HMIMEMSRelationshipId": StringAttribute, // SalesAndMarketing/HMIMEMSEntity

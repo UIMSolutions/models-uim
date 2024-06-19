@@ -15,7 +15,7 @@ class DHMIMStowageEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "stowageCode": StringAttribute, //		SalesAndMarketing/HMIMStowageEntity
         "description": StringAttribute, //		SalesAndMarketing/HMIMStowageEntity
         "backingTable_HMIMStowageRelationshipId": StringAttribute, //		SalesAndMarketing/HMIMStowageEntity

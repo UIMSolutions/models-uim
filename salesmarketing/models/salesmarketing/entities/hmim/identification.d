@@ -14,7 +14,7 @@ class  DHMIMIdentificationEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "identificationCode": StringAttribute, 
         "description": StringAttribute, 
         "restrictAir": StringAttribute, 

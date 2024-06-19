@@ -15,7 +15,7 @@ class  DHMIMTransportCategoryEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "technicalCategoryCode": StringAttribute, //		SalesAndMarketing/HMIMTechnicalNameEntity
         "description": StringAttribute, //		SalesAndMarketing/HMIMTechnicalNameEntity
         "backingTable_HMIMTechnicalNameRelationshipId": StringAttribute, //		SalesAndMarketing/HMIMTechnicalNameEntity

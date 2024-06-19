@@ -15,7 +15,7 @@ class  DHMIMTunnelEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "tunnelCode": StringAttribute, //		SalesAndMarketing/HMIMTechnicalNameEntity
         "description": StringAttribute, //		SalesAndMarketing/HMIMTechnicalNameEntity
         "backingTable_HMIMTunelRelationshipId": StringAttribute, //		SalesAndMarketing/HMIMTechnicalNameEntity

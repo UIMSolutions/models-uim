@@ -15,7 +15,7 @@ class  DHMIMDivisionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "divisionCode": StringAttribute, //		SalesAndMarketing/HMIMDivisionEntity
         "description": StringAttribute, //		SalesAndMarketing/HMIMDivisionEntity
         "classCode": StringAttribute, //		SalesAndMarketing/HMIMDivisionEntity
