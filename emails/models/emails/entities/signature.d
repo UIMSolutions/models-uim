@@ -11,7 +11,7 @@ class DEMLSignature : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "owningBusinessUnitId": UUIDAttribute, //Unique identifier of the business unit that owns the email signature."]),
         "isPersonal": BooleanAttribute, // Information about whether the email signature is personal or is available to all users."]),
         "mimeType": StringAttribute, // MIME type of the email signature."]),

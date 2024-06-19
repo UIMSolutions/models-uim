@@ -10,12 +10,12 @@ class DEmailForwardedENtity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         ContactIdAttribute, // Contact ID
         AccountIdAttribute, // Account ID
         OrganizationIdAttribute, // Organization ID
       ])
-      .addValues([
+      .addData([
         "interactionId": UUIDAttribute, // Unique identifier of the interaction.
         "messageId": UUIDAttribute, // Message ID
         "customerJourneyId": UUIDAttribute, // Customer Journey ID

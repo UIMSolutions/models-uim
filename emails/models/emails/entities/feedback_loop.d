@@ -10,7 +10,7 @@ class DEMLFeedbackLoop : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "interactionId": UUIDAttribute, // Unique identifier of the interaction."]),
         "contactId": UUIDAttribute, // Contact ID"]),
         "accountId": UUIDAttribute, // Account ID"]),
