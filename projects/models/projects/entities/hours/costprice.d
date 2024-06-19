@@ -10,7 +10,7 @@ class DProjectHourCostPriceEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "categoryId": UUIDAttribute, //
         "costPrice": StringAttribute, //
         "effectiveLaborRate": StringAttribute, //

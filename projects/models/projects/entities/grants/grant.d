@@ -10,7 +10,7 @@ class DProjectGrantEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "actualAwardDate": DateAttribute, //
         "actualExpirationDate": DateAttribute, //
         "actualStartDate": DateAttribute, //

@@ -10,7 +10,7 @@ class DProjectGrantTypeFrequencyEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "comments": StringAttribute, //
         "frequency": StringAttribute, //
         "projGrantType": StringAttribute, //

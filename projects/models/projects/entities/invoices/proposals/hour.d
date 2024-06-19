@@ -10,7 +10,7 @@ class DProjectInvoiceProposalHourEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "invoiceProposalId": UUIDAttribute, //
         "salesTaxGroup": StringAttribute, //
         "itemSalesTaxGroup": StringAttribute, //

@@ -10,7 +10,7 @@ class DProjectItemJournalTableEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "blockUserGroupId": UUIDAttribute, //
         "isLinesDeletedAfterPosting": StringAttribute, //
         "description": StringAttribute, //

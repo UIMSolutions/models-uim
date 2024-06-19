@@ -10,7 +10,7 @@ class DProjectGrantMatchingEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "comments": StringAttribute, //
         "description": StringAttribute, //
         "matchingPercentage": StringAttribute, //

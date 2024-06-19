@@ -10,7 +10,7 @@ class DProjectGrantTypeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "description": StringAttribute, //
         "federalManDate": DateAttribute, //
         "grantManager": StringAttribute, //

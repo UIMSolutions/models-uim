@@ -11,7 +11,7 @@ class DProjectInvoiceProposalEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "salesCurrency": StringAttribute, //
         "fundingSource": StringAttribute, //
         "invoiceDate": DateAttribute, //
