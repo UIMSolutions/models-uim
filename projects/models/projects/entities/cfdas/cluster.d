@@ -10,7 +10,7 @@ class DProjectCFDAClusterEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "clusterName": StringAttribute, //
         "backingTable_ProjCFDAClusterRelationshipId": UUIDAttribute, //
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute, //

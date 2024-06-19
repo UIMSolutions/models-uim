@@ -10,7 +10,7 @@ class DProjectContractHeaderEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "bankAccountId": UUIDAttribute, //
         "centralBankPurposeCode": StringAttribute, //
         "centralBankPurposeText": StringAttribute, //

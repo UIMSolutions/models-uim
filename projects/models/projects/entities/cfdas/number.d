@@ -10,7 +10,7 @@ class DProjectCFDANumberEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "cfdaClusterName": StringAttribute, //
         "cfdaId": UUIDAttribute, //
         "description": StringAttribute, //

@@ -10,7 +10,7 @@ class DProjectCustomerRetentionTermScheduleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "percentComplete": StringAttribute, //
         "release": StringAttribute, //
         "percentToRetain": StringAttribute, //

@@ -10,7 +10,7 @@ class DProjectControlEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "completionBasedOn": StringAttribute, //
         "completionMethod": StringAttribute, //
         "costTemplateId": UUIDAttribute, //

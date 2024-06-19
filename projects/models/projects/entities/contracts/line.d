@@ -10,7 +10,7 @@ class DProjectContractLineEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "changeOrderNumber": StringAttribute, //
         "contractLineId": UUIDAttribute, //
         "defaultLedgerDimension": StringAttribute, //

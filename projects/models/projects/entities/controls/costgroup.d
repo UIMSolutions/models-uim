@@ -10,7 +10,7 @@ class DProjectControlCostGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "mandatoryCostLine": StringAttribute, //
         "percentageOfCompletion": StringAttribute, //
         "costTemplateId": UUIDAttribute, //
