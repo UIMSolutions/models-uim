@@ -11,12 +11,12 @@ class DOrderCloseEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         OwnerIdAttribute, // Owner Id"]),
         StateCodeAttribute, // Shows whether the order close activity is open, completed, or canceled. By default, order close activities are completed.
         StatusCodeAttribute // Reason for the status of the order close activity.
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user.
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user.
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.

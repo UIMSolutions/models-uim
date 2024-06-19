@@ -11,11 +11,11 @@ class DOrderEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         StateCodeAttribute, // Shows whether the order is active, submitted, fulfilled, canceled, or invoiced. Only active orders can be edited.
         StatusCodeAttribute // Select the order's status.
       ])
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user.
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user.
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.

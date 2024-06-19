@@ -11,12 +11,12 @@ class DAPLContractEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         OwnerIdAttribute, // Owner Id
         StateCodeAttribute, // Shows whether the contract is in draft, invoiced, active, on hold, canceled, or expired. You can edit only the contracts that are in draft status.
         StatusCodeAttribute // Select the contract's status.
       ]);  
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user."]),
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": UserIdAttribute, // Date and time that the record was migrated."]),
