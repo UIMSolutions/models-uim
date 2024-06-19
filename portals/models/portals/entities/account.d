@@ -11,12 +11,12 @@ class DPortalAccountEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fixed values
+      .addData([ // fixed values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user."]),
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user."]),
         OwnerIdAttribute, // Owner Id"]),
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record."]),
         "ownerIdType": StringAttribute, // The type of owner, either User or Team."]),

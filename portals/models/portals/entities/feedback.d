@@ -11,11 +11,11 @@ class DPortalFeedbackEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fixed values
+      .addData([ // fixed values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user."]),
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user."]),
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "feedbackId": StringAttribute, //	FeedbackId	
         "rating": StringAttribute, //	Specifies how helpful the related record was.	
         "minRating": StringAttribute, //	Enter the minimum rating value.	

@@ -11,14 +11,14 @@ class DPortalExternalIdentityEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         ContactIdAttribute, // en":"Unique identifier for Contact associated with External Identity.
         CreatedOnBehalfByAttribute, // Shows the delegate user who created the record.
         ModifiedOnBehalfByAttribute, // Shows the delegate user who modified the record.
         StateCodeAttribute, // Shows whether the external identity is active or inactive. Inactive records are read-only and can't be edited unless they are reactivated.
         StatusCodeAttribute, // Select the external identity's status.
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "organizationId": UUIDAttribute, // Shows the organization.
         "importSequenceNumber": NumberAttribute, //Shows the sequence number of the import that created this record.
         "overriddenCreatedOn": TimestampAttribute, // Shows the date and time that the record was migrated.

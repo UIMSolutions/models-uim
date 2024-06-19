@@ -11,13 +11,13 @@ class DProductAssociationEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user."]),
         ModifiedOnBehalfByAttribute, // Shows who created the record on behalf of another user."]),
         StateCodeAttribute, // Status of the Bookable Resource Group
         StatusCodeAttribute // Reason for the status of the Bookable Resource Group      
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "organizationId": UUIDAttribute, // Unique identifier for the organization"]),
         "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record."]),
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),

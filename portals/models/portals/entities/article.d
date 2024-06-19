@@ -11,11 +11,11 @@ class DPortalArticleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fixed values
+      .addData([ // fixed values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user."]),
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user."]),
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "kbArticleId": StringAttribute, // 	Shows the ID of the article.	
         "kbArticleTemplateId": StringAttribute, // 	Choose the template that you want to use as a base for creating the new article.	
         "organizationId": StringAttribute, // 	Unique identifier of the organization associated with the article.	
