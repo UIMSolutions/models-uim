@@ -11,13 +11,13 @@ class DScholarshipApplicationBusinessProcessFlowEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, 
         ModifiedOnBehalfByAttribute, 
         StateCodeAttribute,
         StatusCodeAttribute
       ])
-      .addValues([ // individual values  
+      .addData([ // individual values  
         "businessProcessFlowInstanceId": UUIDAttribute, //	Unique identifier for entity instances
         "activeStageStartedOn": StringAttribute, //	Date and time when current active stage is started
         "bpf_Duration": StringAttribute, //	Duration of Business Process Flow
