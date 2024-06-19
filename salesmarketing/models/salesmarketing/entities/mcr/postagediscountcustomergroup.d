@@ -15,7 +15,7 @@ class  DMCRPostageDiscountCustomerGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "groupCode": StringAttribute,
         "groupName": StringAttribute,
         "backingTable_PriceDiscGroupRelationshipId": UUIDAttribute,

@@ -15,7 +15,7 @@ class  DHMIMPackDescriptionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "packCode": StringAttribute, //		SalesAndMarketing/HMIMPackDescriptionEntity
         "description": StringAttribute, //		SalesAndMarketing/HMIMPackDescriptionEntity
         "backingTable_HMIMPackDescriptionRelationshipId": StringAttribute, //		SalesAndMarketing/HMIMPackDescriptionEntity      

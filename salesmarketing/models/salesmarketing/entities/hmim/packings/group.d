@@ -10,7 +10,7 @@ class  DHMIMPackingGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "packGroupCode": StringAttribute, //		SalesAndMarketing/HMIMPackDescriptionEntity
         "description": StringAttribute, //		SalesAndMarketing/HMIMPackDescriptionEntity
         "backingTable_HMIMPackingGroupRelationshipId": StringAttribute, //		SalesAndMarketing/HMIMPackDescriptionEntity      

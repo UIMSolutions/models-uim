@@ -15,7 +15,7 @@ class  DHMIMItemMaterialSimpleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "itemId": StringAttribute, //		SalesAndMarketing/HMIMItemMaterialSimpleEntity
         "materialCode": StringAttribute, //		SalesAndMarketing/HMIMItemMaterialSimpleEntity
         "materialDescription": StringAttribute, //		SalesAndMarketing/HMIMItemMaterialSimpleEntity

@@ -14,7 +14,7 @@ class  DHMIMClassEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "classCode": StringAttribute,
         "backingTable_HMIMClassRelationshipId": UUIDAttribute,      
       ])

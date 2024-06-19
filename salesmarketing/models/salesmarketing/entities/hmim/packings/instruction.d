@@ -15,7 +15,7 @@ class  DHMIMPackingInstructionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "pacbkInstCode": StringAttribute, 		// SalesAndMarketing/HMIMPackingInstructionEntity
         "description": StringAttribute, 		// SalesAndMarketing/HMIMPackingInstructionEntity
         "backingTable_HMIMPackingInstructionRelationshipId": StringAttribute, 		// SalesAndMarketing/HMIMPackingInstructionEntity

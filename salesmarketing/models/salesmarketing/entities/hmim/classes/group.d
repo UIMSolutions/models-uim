@@ -15,7 +15,7 @@ class  DLogisticsLocationRoleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "classGroupCode": StringAttribute, //		SalesAndMarketing/HMIMClassGroupEntity
         "description": StringAttribute, //		SalesAndMarketing/HMIMClassGroupEntity
         "classCode": StringAttribute, //		SalesAndMarketing/HMIMClassGroupEntity
