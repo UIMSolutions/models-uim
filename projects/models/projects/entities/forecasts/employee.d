@@ -10,7 +10,7 @@ class DProjectForecastEmployeeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "active": StringAttribute, //
         "activityNumber": StringAttribute, //
         "category": StringAttribute, //

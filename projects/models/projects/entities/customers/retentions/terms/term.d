@@ -10,7 +10,7 @@ class DProjectCustomerRetentionTermEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "billingRule": StringAttribute, //
         "projectContractId": UUIDAttribute, //
         "customerAccount": StringAttribute, //

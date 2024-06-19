@@ -10,7 +10,7 @@ class DProjectForecastOnAccountEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "salesCurrency": StringAttribute, //
         "defaultDimension": StringAttribute, //
         "eliminationDate": DateAttribute, //

@@ -10,7 +10,7 @@ class DExpenseJournalLineEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "accountType": StringAttribute, //
         "currencyCode": StringAttribute, //
         "journalBatchNumber": StringAttribute, //

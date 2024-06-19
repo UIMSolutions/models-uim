@@ -10,7 +10,7 @@ class DExpenseJournalHeaderEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "postingLayer": StringAttribute, //
         "journalNameId": UUIDAttribute, //
         "journalBatchNumber": StringAttribute, //

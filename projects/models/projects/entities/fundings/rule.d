@@ -10,7 +10,7 @@ class DProjectFundingRuleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "activityNumber": StringAttribute, //
         "categoryGroupId": UUIDAttribute, //
         "categoryId": UUIDAttribute, //

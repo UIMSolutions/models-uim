@@ -10,7 +10,7 @@ class DProjectForecastSalesEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "active": StringAttribute, //
         "activityNumber": StringAttribute, //
         "allocateMethod": StringAttribute, //
