@@ -10,7 +10,7 @@ class DProjectStatusTypeRuleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "ProjStatus": StringAttribute, //
         "ProjStatusRule": StringAttribute, //
         "ProjType": StringAttribute, //

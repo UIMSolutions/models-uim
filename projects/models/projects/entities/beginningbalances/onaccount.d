@@ -10,7 +10,7 @@ class DProjectBeginningBalanceOnAccountEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "journalId": UUIDAttribute, //
         "journalName": StringAttribute, //
         "journalDescription": StringAttribute, //

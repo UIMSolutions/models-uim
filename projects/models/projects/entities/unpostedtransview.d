@@ -10,7 +10,7 @@ class DProjectUnpostedTransViewEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "ActivityNumber": StringAttribute, //
         "Amount": StringAttribute, //
         "CategoryId": UUIDAttribute, //

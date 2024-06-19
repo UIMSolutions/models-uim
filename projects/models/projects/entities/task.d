@@ -10,7 +10,7 @@ class DProjectTaskEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "taskElementId": UUIDAttribute, //
         "taskHierarchyId": UUIDAttribute, //
         "taskOutlineLevel": StringAttribute, //

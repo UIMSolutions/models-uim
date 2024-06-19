@@ -10,7 +10,7 @@ class DProjectAllocationKeyEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "allocationKey": StringAttribute, //
         "name": StringAttribute, //
         "backingTable_ProjAllocateKeyRelationshipId": UUIDAttribute, //

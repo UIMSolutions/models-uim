@@ -10,7 +10,7 @@ class DProjectBeginningBalanceFeeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "canAccrueRevenue": StringAttribute, //
         "defaultDimension": StringAttribute, //
         "lineNumber": StringAttribute, //

@@ -10,7 +10,7 @@ class DProjectBeginningBalanceCostSaleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "activityNumber": StringAttribute, //
         "costPrice": StringAttribute, //
         "defaultDimension": StringAttribute, //

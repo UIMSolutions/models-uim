@@ -10,7 +10,7 @@ class DProjectWBSDraftEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "projectId": UUIDAttribute, //
         "hierarchyId": UUIDAttribute, //
         "taskId": UUIDAttribute, //

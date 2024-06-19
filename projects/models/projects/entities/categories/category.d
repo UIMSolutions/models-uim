@@ -10,7 +10,7 @@ class DProjectCategoryEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "activeInJournals": StringAttribute, //
         "categoryGroup": StringAttribute, //
         "category": StringAttribute, //
