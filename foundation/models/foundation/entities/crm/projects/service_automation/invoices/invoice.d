@@ -11,13 +11,13 @@ class DInvoiceEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         ContactIdAttribute, // Unique identifier of the contact associated with the invoice.
         OwnerIdAttribute, // Owner Id
         StateCodeAttribute, // Shows whether the invoice is active, paid, or canceled. Paid and canceled invoices are read-only and can't be edited unless they are reactivated.
         StatusCodeAttribute // Select the invoice's status.
       ])
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user.
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user.
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.

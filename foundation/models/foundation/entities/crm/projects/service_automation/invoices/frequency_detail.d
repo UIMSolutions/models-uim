@@ -11,7 +11,7 @@ class DInvoiceFrequencyDetailEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who created the record."]),
         "modifiedOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who modified the record."]),
         "organizationId": UUIDAttribute, // Unique identifier for the organization"]),

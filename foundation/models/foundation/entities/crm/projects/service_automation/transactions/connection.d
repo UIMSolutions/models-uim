@@ -11,12 +11,12 @@ class DTransactionConnectionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         OwnerIdAttribute, // Owner Id"
         StateCodeAttribute, // Time zone code that was in use when the record was created.
         StatusCodeAttribute // Reason for the status of the Transaction Connection
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user."]),
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),

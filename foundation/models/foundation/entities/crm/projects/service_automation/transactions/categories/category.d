@@ -11,11 +11,11 @@ class DTransactionCategoryEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         StateCodeAttribute, // Status of the Transaction Category
         StatusCodeAttribute // Reason for the status of the Transaction Category
       ])
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who created the record.
         "modifiedOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who modified the record.
         "organizationId": UUIDAttribute, // Unique identifier for the organization

@@ -11,14 +11,14 @@ class DExpenseReceiptEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user.
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
         OwnerIdAttribute, // Owner Id
         StateCodeAttribute, // Status of the Expense Receipt
         StatusCodeAttribute // Reason for the status of the Expense Receipt
       ])
-      .addValues([
+      .addData([
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
         "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record.
         "owningBusinessUnitId": BusinessUnitIdAttribute, // Unique identifier for the business unit that owns the record
