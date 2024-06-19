@@ -10,7 +10,7 @@ class  DPriceDiscTradeAgreementJournalNameEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "groupCode": StringAttribute, //		SalesAndMarketing/PriceDiscTotalDiscountCustomerGroupEntity
         "groupName": StringAttribute, //		SalesAndMarketing/PriceDiscTotalDiscountCustomerGroupEntity
         "backingTable_PriceDiscGroupRelationshipId": StringAttribute, //		SalesAndMarketing/PriceDiscTotalDiscountCustomerGroupEntity

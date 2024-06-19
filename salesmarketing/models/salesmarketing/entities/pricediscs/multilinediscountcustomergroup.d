@@ -15,7 +15,7 @@ class  DPriceDiscMultilineDiscountCustomerGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "purpose": StringAttribute, //
         "postalAddress": StringAttribute, //
         "contactInfo": StringAttribute, //
