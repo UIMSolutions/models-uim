@@ -11,12 +11,12 @@ class DRelationshipInsightsUnifiedConfigEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         OwnerIdAttribute, // Owner Id"]),
         StateCodeAttribute, // Status of the msdyn_relationshipinsightsunifiedconfig
         StatusCodeAttribute // Reason for the status of the msdyn_relationshipinsightsunifiedconfig
       ])   
-      .addValues([ // individual values
+      .addData([ // individual values
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user."]),
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),

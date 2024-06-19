@@ -11,7 +11,7 @@ import models.foundation;
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
       "systemUserId":OOPAttributeUUID"datatype":"UUID", "descriptions":{}}`,
       "teamId":OOPAttributeUUID"datatype":"UUID", "descriptions":{}}`,
     ]);

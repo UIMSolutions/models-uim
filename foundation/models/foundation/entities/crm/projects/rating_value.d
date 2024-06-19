@@ -11,12 +11,12 @@ class DRatingValueEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         OwnerIdAttribute, // Owner Id
         StateCodeAttribute, // Status of the Rating Value
         StatusCodeAttribute // Reason for the status of the Rating Value
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "createdOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who created the record.
         "modifiedOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who modified the record.
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.

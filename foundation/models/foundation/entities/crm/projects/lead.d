@@ -11,12 +11,12 @@ class DLeadEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         OwnerIdAttribute, // Owner Id
         StateCodeAttribute, // Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.
         StatusCodeAttribute // Type a subject or descriptive name, such as the expected order, company name, or marketing source list, to identify the lead.
       ])
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user.
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user.
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
