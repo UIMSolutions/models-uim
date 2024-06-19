@@ -11,14 +11,14 @@ class DPreviousEducationEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, 
         ModifiedOnBehalfByAttribute, 
         OwnerIdAttribute,
         StateCodeAttribute,
         StatusCodeAttribute
       ])
-      .addValues([ // individual values  bute, //	Shows who last updated the record on behalf of another user.	
+      .addData([ // individual values  bute, //	Shows who last updated the record on behalf of another user.	
         "overriddenCreatedOn": StringAttribute, //	Date and time that the record was migrated.	
         "importSequenceNumber": StringAttribute, //	Unique identifier of the data import or data migration that created this record.	
         "ownerIdType": StringAttribute, //	The type of owner, either User or Team.	

@@ -12,12 +12,12 @@ class DAddressEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user.
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
         OwnerIdAttribute, // Owner Id
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "parentId": UUIDAttribute, //	Choose the customer's address.	
         "parentIdTypeCode": StringAttribute, //	The name of the entity linked by parentId	
         "customerAddressId": UUIDAttribute, //	Unique identifier of the customer address.	

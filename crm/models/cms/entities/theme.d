@@ -10,7 +10,7 @@ class DCMSTheme : DCMSEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "themeId": UUIDAttribute
       ]) 
       .registerPath("cms_themes")
