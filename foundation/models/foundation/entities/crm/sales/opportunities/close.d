@@ -11,11 +11,11 @@ class DAPLOpportunityClose : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         StateCodeAttribute, // Shows whether the opportunity close activity is open, completed, or canceled. By default, opportunity close activities are completed unless the opportunity is reactivated, which updates them to canceled.
         StatusCodeAttribute // Reason for the status of the opportunity close activity.
       ])
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user."]),
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),

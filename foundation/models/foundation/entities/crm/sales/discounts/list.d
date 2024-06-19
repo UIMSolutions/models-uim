@@ -11,11 +11,11 @@ class DDiscountListEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         StateCodeAttribute, // Status of the discount list.
         StatusCodeAttribute // Reason for the status of the discount list.
       ]);    
-      .addValues([
+      .addData([
         "discountTypeId": UUIDAttribute, // Unique identifier of the discount list."]), 
         "createdOnBehalfBy": StringAttribute, // Unique identifier of the delegate user who created the discounttype."]), 
         "modifiedOnBehalfBy": StringAttribute, // Unique identifier of the delegate user who last modified the discounttype."]), 

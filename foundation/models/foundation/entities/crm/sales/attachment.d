@@ -11,7 +11,7 @@ class DSalesAttachmentEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "salesLiteratureItemId": UUIDAttribute, // Unique identifier for the document."]),
         "createdOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who created the salesliteratureitem."]),
         "modifiedOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who last modified the salesliteratureitem."]),

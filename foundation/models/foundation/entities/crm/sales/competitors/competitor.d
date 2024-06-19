@@ -11,7 +11,7 @@ class DCompetitorEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
       "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user."]),
       "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user."]),
       "organizationId": UUIDAttribute, // Unique identifier for the organization"]),

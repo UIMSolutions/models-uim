@@ -10,12 +10,12 @@ class DTransactionCategoryHierarchyElementEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         OwnerIdAttribute,
         StateCodeAttribute, // Status of the Transaction Category Hierarchy Element
         StatusCodeAttribute // Reason for the status of the Transaction Category Hierarchy Element
       ]);      
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who created the record.
         "modifiedOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who modified the record.
         "organizationId": UUIDAttribute, // Unique identifier for the organization

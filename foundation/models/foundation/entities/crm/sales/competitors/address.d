@@ -12,7 +12,7 @@ class DCompetitorAddressEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who created the competitor address."]),
         "modifiedOnBehalfBy": UserIdAttribute, // Unique identifier of the delegate user who last modified the competitor address."]),
         "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record."]),

@@ -11,7 +11,7 @@ class DCompetitorSalesLiteratureEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record."]),
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),
         "timeZoneRuleVersionNumber": NumberAttribute, // For internal use only."]),
