@@ -10,7 +10,7 @@ class DProjectPeriodEmplEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "normBillable": StringAttribute, //
         "normEfficiency": StringAttribute, //
         "periodFrom": StringAttribute, //

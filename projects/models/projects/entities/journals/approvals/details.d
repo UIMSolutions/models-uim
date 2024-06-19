@@ -10,7 +10,7 @@ class DProjectJournalApprovalDetailsEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "editing": StringAttribute, //
         "checkJournal": StringAttribute, //
         "group": StringAttribute, //

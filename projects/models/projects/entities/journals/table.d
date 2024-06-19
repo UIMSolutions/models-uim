@@ -10,7 +10,7 @@ class DProjectJournalTableEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "projCategory": StringAttribute, //
         "deleteLinesAfterPosting": StringAttribute, //
         "description": StringAttribute, //

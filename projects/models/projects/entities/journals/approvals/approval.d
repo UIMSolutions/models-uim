@@ -10,7 +10,7 @@ class DProjectJournalApprovalEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "name": StringAttribute, //
         "approve": StringAttribute, //
         "backingTable_ProjJournalStatusTableRelationshipId": UUIDAttribute, //

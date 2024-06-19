@@ -10,7 +10,7 @@ class DProjectJournalNameEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "description": StringAttribute, //
         "detailSummary": StringAttribute, //
         "name": StringAttribute, //

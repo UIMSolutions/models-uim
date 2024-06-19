@@ -10,7 +10,7 @@ class DProjectLinePropertyEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "costPercentage": StringAttribute, //
         "addToEfficientHours": StringAttribute, //
         "linePropertyId": UUIDAttribute, //

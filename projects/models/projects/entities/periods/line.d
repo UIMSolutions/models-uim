@@ -10,7 +10,7 @@ class DProjectPeriodLineEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "modelId": UUIDAttribute, //
         "periodFrom": StringAttribute, //
         "periodId": UUIDAttribute, //

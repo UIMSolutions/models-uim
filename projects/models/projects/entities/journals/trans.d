@@ -10,7 +10,7 @@ class DProjectJournalTransEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "activityNumber": StringAttribute, //
         "category": StringAttribute, //
         "costPrice": StringAttribute, //

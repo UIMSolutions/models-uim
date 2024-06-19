@@ -11,7 +11,7 @@ class DProjectJournalDescriptionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "identification": StringAttribute, //
         "searchName": StringAttribute, //
         "description": StringAttribute, //

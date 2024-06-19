@@ -10,7 +10,7 @@ class DProjectLinePropertySetupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "categoryCode": StringAttribute, //
         "categoryRelation": StringAttribute, //
         "linePropertyId": UUIDAttribute, //
