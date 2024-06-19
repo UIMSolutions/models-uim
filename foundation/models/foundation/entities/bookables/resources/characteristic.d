@@ -11,12 +11,12 @@ class DBookableResourceCharacteristicEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         OwnerIdAttribute, // Owner Id"]),
         StateCodeAttribute, // Status of the Bookable Resource Characteristic
         StatusCodeAttribute // Reason for the status of the Bookable Resource Characteristic
       ])
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UserIdAttribute, // Shows who created the record on behalf of another user."]),
         "modifiedOnBehalfBy": UserIdAttribute, // Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),

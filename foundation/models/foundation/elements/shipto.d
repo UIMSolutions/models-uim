@@ -20,7 +20,7 @@ class DShipToElement: DElement {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "addressId": UUIDAttribute, // Unique identifier of the shipping address.
         "city": StringAttribute, // Type the city for the customer's shipping address.
         "contactName": StringAttribute, // Type the primary contact name at the customer's shipping address.

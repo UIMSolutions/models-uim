@@ -11,14 +11,14 @@ class DBookableResourceGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user.
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user.
         OwnerIdAttribute, // Owner Id
         StateCodeAttribute, // Status of the Bookable Resource Group
         StatusCodeAttribute // Reason for the status of the Bookable Resource Group      
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated.
         "importSequenceNumber": NumberAttribute, // Unique identifier of the data import or data migration that created this record.
         "ownerIdType": StringAttribute, // The type of owner, either User or Team.

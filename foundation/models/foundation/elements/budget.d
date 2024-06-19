@@ -20,7 +20,7 @@ class DBudgetElement: DElement {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "amount": StringAttribute, // Type a value between 0 and 1,000,000,000,000 to indicate the lead's potential available budget."]),
         "amountBase": StringAttribute, // Value of the Budget Amount in base currency."]),
         "status": StringAttribute, // Select the likely budget status for the lead's company. This may help determine the lead rating or your sales approach."]),

@@ -20,7 +20,7 @@ class DTimeRangeElement: DElement {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "start": StringAttribute, // Type the city for the customer's shipping address.
         "end": StringAttribute // Type the primary contact name at the customer's shipping address.
     ]);
