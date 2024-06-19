@@ -11,7 +11,7 @@ class DContractLineEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         OwnerIdAttribute, // Owner Id
         CustomerIdAttribute, // The customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.
         AccountIdAttribute, // Unique identifier of the account with which the contract is associated.
@@ -19,7 +19,7 @@ class DContractLineEntity : DEntity {
         StateCodeAttribute, // Shows whether the contract line is existing, renewed, canceled, or expired. You can't edit a contract line after it is saved, regardless of the status.
         StatusCodeAttribute, //Select the contract line's status.
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "createdOnBehalfBy": StringAttribute, // Shows who created the record on behalf of another user.
         "modifiedOnBehalfBy": StringAttribute, // Shows who last updated the record on behalf of another user.
         "overriddenCreatedOn": StringAttribute, // Date and time that the record was migrated.

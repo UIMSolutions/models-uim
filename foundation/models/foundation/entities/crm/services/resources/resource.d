@@ -10,7 +10,7 @@ class DResourceEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "resourceId": UserIdAttribute, // Unique identifier of the resource."]),
         "businessUnitId": UserIdAttribute, // Business Unit Id"]),
         "importSequenceNumber": UserIdAttribute, // Sequence number of the import that created this record."]),

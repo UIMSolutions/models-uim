@@ -11,7 +11,7 @@ class DAPLResourceExpansionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "resourceGroupExpansionId": UUIDAttribute, // Unique identifier of the resource expansion record."]),
         "importSequenceNumber": NumberAttribute, // Sequence number of the import that created this record."]),
         "overriddenCreatedOn": StringAttribute, // Date and time that the record was migrated."]),
