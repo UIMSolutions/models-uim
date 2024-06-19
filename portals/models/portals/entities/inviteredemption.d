@@ -11,11 +11,11 @@ class DPortalInviteRedemptionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fixed values
+      .addData([ // fixed values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user."]),
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user."]),
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "createdOn": StringAttribute, //	Date and time when the record was created.	
         "createdBy": StringAttribute, //	Shows who created the record.	
         "modifiedOn": StringAttribute, //	Date and time when the record was modified.	

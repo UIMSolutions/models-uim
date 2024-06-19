@@ -11,7 +11,7 @@ class DPortalAdPlacementEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user."]),
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user."]),
         OwnerIdAttribute, // Status of the AdPlacement Placement
@@ -20,7 +20,7 @@ class DPortalAdPlacementEntity : DEntity {
         WebSiteIdAttribute, // Unique identifier for Website associated with AdPlacementPlacement."]),
         WebTemplateIdAttribute, // Unique identifier for Web Template associated with AdPlacement."]),
       ])
-      .addValues([
+      .addData([
         "overriddenCreatedOn": TimestampAttribute, // Date and time that the record was migrated."]),
         "importSequenceNumber": NumberAttribute, //Sequence number of the import that created this record."]),
         "ownerIdType": StringAttribute, // The type of owner, either User or Team."]),

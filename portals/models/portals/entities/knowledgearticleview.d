@@ -11,11 +11,11 @@ class DPortalKnowledgeArticleViewEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fixed values
+      .addData([ // fixed values
         CreatedOnBehalfByAttribute, // Shows who created the record on behalf of another user."]),
         ModifiedOnBehalfByAttribute, // Shows who last updated the record on behalf of another user."]),
       ])
-      .addValues([ // individual values
+      .addData([ // individual values
         "knowledgeArticleViewsId": StringAttribute, //	Unique identifier of the Knowledge Article Views	
         "timeZoneRuleVersionNumber": StringAttribute, //	For internal use only.	
         "transactionCurrencyId": StringAttribute, //	Choose the local currency for the record to make sure budgets are reported in the correct currency.	
