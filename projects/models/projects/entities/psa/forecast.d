@@ -10,7 +10,7 @@ class DPSAForecastEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "activityNumber": StringAttribute, //
         "amountMst": StringAttribute, //
         "categoryId": UUIDAttribute, //

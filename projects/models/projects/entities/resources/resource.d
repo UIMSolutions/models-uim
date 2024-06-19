@@ -10,7 +10,7 @@ class DProjectResourceEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "ProjectId": UUIDAttribute, //
         "PersonnelNumber": StringAttribute, //
         "BackingTable_ProjResourceRelationshipId": UUIDAttribute, //

@@ -10,7 +10,7 @@ class DPSAIndirectCostComponentEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "category": StringAttribute, //
         "componentId": UUIDAttribute, //
         "name": StringAttribute, //

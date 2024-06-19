@@ -10,7 +10,7 @@ class DPSAIndirectComponentGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "indirectCostComponentGroup": StringAttribute, //
         "indirectComponentGroupName": StringAttribute, //
         "backingTable_PSAIndirectComponentGroupRelationshipId": UUIDAttribute, //

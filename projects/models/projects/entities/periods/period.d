@@ -10,7 +10,7 @@ class DProjectPeriodEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "periodId": UUIDAttribute, //
         "description": StringAttribute, //
         "weekDayPeriodStart": StringAttribute, //

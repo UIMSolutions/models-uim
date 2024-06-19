@@ -10,7 +10,7 @@ class DPSAComponentectGroupAssignmentEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "category": StringAttribute, //
         "customerAccount": StringAttribute, //
         "indirectCostComponentGroup": StringAttribute, //

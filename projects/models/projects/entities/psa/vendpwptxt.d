@@ -10,7 +10,7 @@ class DPSAVendPWPTxtEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "accountCode": StringAttribute, //
         "vendorAccount": StringAttribute, //
         "payWhenPaidContractLanguage": StringAttribute, //

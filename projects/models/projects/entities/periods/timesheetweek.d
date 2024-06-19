@@ -10,7 +10,7 @@ class DProjectPeriodTimesheetWeekEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "periodFrom": StringAttribute, //
         "periodId": UUIDAttribute, //
         "periodName": StringAttribute, //

@@ -10,7 +10,7 @@ class DProjectResourceDataEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "resourceId": UUIDAttribute, 
         "type": StringAttribute, 
         "name": StringAttribute, 
