@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/model-operations
+model-operations.so
+model-operations.dylib
+model-operations.dll
+model-operations.a
+model-operations.lib
+model-operations-test-*
+*.exe
+*.o
+*.obj
+*.lst
