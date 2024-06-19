@@ -10,7 +10,7 @@ class DHcmPersonProjectRoleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "legalEntity": StringAttribute, //
         "dataArea": StringAttribute, //
         "nullableDataArea": StringAttribute, //

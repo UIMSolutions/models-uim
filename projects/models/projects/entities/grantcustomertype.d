@@ -10,7 +10,7 @@ class DProjectGrantCustomerTypeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "Description": StringAttribute, //
         "GrantorType": StringAttribute, //
         "BackingTable_ProjGrantorTypeRelationshipId": UUIDAttribute, //

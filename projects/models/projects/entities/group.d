@@ -10,7 +10,7 @@ class DProjectGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "accruedLossCategoryId": UUIDAttribute, //
         "canVerifyCostAgainstRemainingForecast": StringAttribute, //
         "revenueRecognitionAccountingRule": StringAttribute, //

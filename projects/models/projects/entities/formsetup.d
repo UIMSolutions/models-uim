@@ -10,7 +10,7 @@ class DProjectFormSetupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "associatedPaymentAttachmentOnInvoice": StringAttribute, //
         "invoice": StringAttribute, //
         "packingSlip": StringAttribute, //

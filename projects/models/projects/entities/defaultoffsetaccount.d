@@ -10,7 +10,7 @@ class DProjectDefaultOffsetAccountEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "offsetAccount": StringAttribute, // 
         "category": StringAttribute, // 
         "projectId": UUIDAttribute, // 

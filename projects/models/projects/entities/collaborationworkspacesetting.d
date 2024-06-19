@@ -10,7 +10,7 @@ class DProjectCollaborationWorkspaceSettingEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "isWorkspaceAutoCreatedForCost": BooleanAttribute, //
         "isWorkspaceAutoCreatedForInternal": BooleanAttribute, //
         "isWorkspaceAutoCreatedForInvestment": BooleanAttribute, //
