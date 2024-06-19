@@ -10,7 +10,7 @@ class  DCustChargeCustomerGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "GroupId": StringAttribute, // 		SalesAndMarketing/CustChargeCustomerGroupEntity
         "Description": StringAttribute, // 		SalesAndMarketing/CustChargeCustomerGroupEntity
         "BackingTable_MarkupGroupRelationshipId": StringAttribute, // 		SalesAndMarketing/CustChargeCustomerGroupEntity

@@ -10,7 +10,7 @@ class  DAgreementExternalAgreementClassificationCodeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "codeDefinition": StringAttribute, //		SalesAndMarketing/AgreementExternalAgreementClassificationCodeEntity
         "codeDescription": StringAttribute, //		SalesAndMarketing/AgreementExternalAgreementClassificationCodeEntity
         "codeId": StringAttribute, //		SalesAndMarketing/AgreementExternalAgreementClassificationCodeEntity

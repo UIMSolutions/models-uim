@@ -15,7 +15,7 @@ class  DCommissionSalesRepresentativeGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "groupId": StringAttribute, //		SalesAndMarketing/CommissionSalesRepresentativeGroupEntity
         "groupName": StringAttribute, //		SalesAndMarketing/CommissionSalesRepresentativeGroupEntity
         "backingTable_CommissionSalesGroupRelationshipId": StringAttribute, //		SalesAndMarketing/CommissionSalesRepresentativeGroupEntity

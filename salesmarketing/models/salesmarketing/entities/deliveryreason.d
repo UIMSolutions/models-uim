@@ -15,7 +15,7 @@ class  DDeliveryReasonEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "reasonCode": StringAttribute, ///		SalesAndMarketing/DeliveryReasonEntity
         "reasonDescription": StringAttribute, ///		SalesAndMarketing/DeliveryReasonEntity
         "free_IT": StringAttribute, ///		SalesAndMarketing/DeliveryReasonEntity
