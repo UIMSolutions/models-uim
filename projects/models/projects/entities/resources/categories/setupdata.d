@@ -10,7 +10,7 @@ class DProjectResourceCategoryDataEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "roleId": UUIDAttribute, //
         "description": StringAttribute, //
         "defaultResourceCategory": StringAttribute, //

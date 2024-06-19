@@ -10,7 +10,7 @@ class DProjectTaxTableTransTaxInformationEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "projectId": UUIDAttribute, //
         "bankLocation": StringAttribute, //
         "bankTaxInformation": StringAttribute, //

@@ -10,7 +10,7 @@ class DProjectTravelExpensePolicyGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "GroupId": UUIDAttribute, //
         "Name": StringAttribute, //
         "BackingTable_ProjExpPolicyGroupsRelationshipId": UUIDAttribute, //

@@ -10,7 +10,7 @@ class DProject_ResourceRoleCharacteristicsEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "characteristicId": UUIDAttribute, //
         "characteristicRequirement": StringAttribute, //
         "characteristicSet": StringAttribute, //

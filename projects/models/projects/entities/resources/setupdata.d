@@ -10,7 +10,7 @@ class DProjectResourceSetupDataEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "defaultTimeCategory": StringAttribute, //
         "legalEntity": StringAttribute, //
         "period": StringAttribute, //

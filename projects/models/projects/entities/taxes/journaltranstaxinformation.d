@@ -10,7 +10,7 @@ class DProjectTaxJournalTransTaxInformationEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "journalId": UUIDAttribute, //
         "lineNum": StringAttribute, //
         "exempt": StringAttribute, //

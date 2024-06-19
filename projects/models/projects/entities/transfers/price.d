@@ -10,7 +10,7 @@ class DProjectTransferPriceEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "salesCurrency": StringAttribute, //
         "transferPriceModel": StringAttribute, //
         "projCategory": StringAttribute, //
