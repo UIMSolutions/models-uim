@@ -10,7 +10,7 @@ class DProjectValidationEmployeeCategorySetupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "categoryId": UUIDAttribute, //
         "groupId": UUIDAttribute, //
         "resource": StringAttribute, //

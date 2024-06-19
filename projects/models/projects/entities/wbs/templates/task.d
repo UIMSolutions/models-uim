@@ -10,7 +10,7 @@ class DProjectWBSTemplateTaskEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "hierarchyId": UUIDAttribute, //
         "taskId": UUIDAttribute, //
         "wbsId": UUIDAttribute, //

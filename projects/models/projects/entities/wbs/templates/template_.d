@@ -10,7 +10,7 @@ class DProjectWBSTemplateEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "hierarchyId": UUIDAttribute, //
         "name": StringAttribute, //
         "description": StringAttribute, //

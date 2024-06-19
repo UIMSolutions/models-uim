@@ -10,7 +10,7 @@ class DProjectValidationProjectCategoryEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "groupId": UUIDAttribute, //
         "name": StringAttribute, //
         "backingTable_ProjValProjCategoryTableRelationshipId	": StringAttribute, //

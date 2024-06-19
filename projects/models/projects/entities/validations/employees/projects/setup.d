@@ -10,7 +10,7 @@ class DProjectValidationEmployeeProjectSetupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "projectId": UUIDAttribute, //
         "resource": StringAttribute, //
         "resourceLegalEntityDataArea": StringAttribute, //

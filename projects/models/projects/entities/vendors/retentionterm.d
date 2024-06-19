@@ -10,7 +10,7 @@ class DProjectVendorRetentionTermEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "description": StringAttribute, //
         "ruleId": UUIDAttribute, //
         "backingTable_PSAVendorRetentionTermsTableRelationshipId": UUIDAttribute, //

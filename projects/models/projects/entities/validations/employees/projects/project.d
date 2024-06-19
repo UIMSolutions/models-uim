@@ -10,7 +10,7 @@ class DProjectValidationEmployeeProjectEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "groupId": UUIDAttribute, //
         "name": StringAttribute, //
         "backingTable_ProjValEmplProjTableRelationshipId": UUIDAttribute, //
