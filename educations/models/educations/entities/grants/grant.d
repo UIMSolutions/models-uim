@@ -12,14 +12,14 @@ class DGrantEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // fix values
+      .addData([ // fix values
         CreatedOnBehalfByAttribute, 
         ModifiedOnBehalfByAttribute, 
         OwnerIdAttribute,
         StateCodeAttribute,
         StatusCodeAttribute
       ])
-      .addValues([ // individual values  
+      .addData([ // individual values  
         "overriddenCreatedOn": StringAttribute, //	Date and time that the record was migrated.	
         "importSequenceNumber": StringAttribute, //	Unique identifier of the data import or data migration that created this record.	
         "ownerIdType": StringAttribute, //	The type of owner, either User or Team.	
