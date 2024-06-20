@@ -19,16 +19,15 @@
 docs.json
 dub.selections.json
 
-/model-cms
-model-cms.so
-model-cms.dylib
-model-cms.dll
-model-cms.a
-model-cms.lib
-model-cms-test-*
+/model-crm
+model-crm.so
+model-crm.dylib
+model-crm.dll
+model-crm.a
+model-crm.lib
+model-crm-test-*
 *.exe
 *.o
 *.obj
 *.lst
 dub.selections.json
-libmodel-cms.a
