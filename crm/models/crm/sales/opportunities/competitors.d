@@ -11,7 +11,7 @@ class DCRMOpportunityCompetitors : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "opportunityCompetitorId": UUIDAttribute, // Unique identifier of the opportunity competitor."]),
         "importSequenceNumber": IntegerAttribute, //Sequence number of the import that created this record."]),
         "overriddenCreatedOn": TimestampAttribute, //Date and time that the record was migrated."]),

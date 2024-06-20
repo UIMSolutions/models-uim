@@ -11,7 +11,7 @@ class DCRMDiscountList : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "discountTypeId": UUIDAttribute, // Unique identifier of the discount list."]), 
         "createdOnBehalfBy": StringAttribute, // Unique identifier of the delegate user who created the discounttype."]), 
         "modifiedOnBehalfBy": StringAttribute, // Unique identifier of the delegate user who last modified the discounttype."]), 
