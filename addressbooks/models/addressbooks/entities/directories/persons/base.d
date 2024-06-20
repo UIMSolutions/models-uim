@@ -10,7 +10,7 @@ class DDirPersonBaseEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "partyNumber": StringAttribute, 
         "firstName": StringAttribute, 
         "middleName": StringAttribute, 

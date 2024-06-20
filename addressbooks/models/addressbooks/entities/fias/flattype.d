@@ -10,7 +10,7 @@ class DFiasFlatTypeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "flTypeId": UUIDAttribute,
         "shortName": StringAttribute,
         "backingTable_FiasFlatTypeRelationshipId": UUIDAttribute,

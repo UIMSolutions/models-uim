@@ -10,7 +10,7 @@ class DFiasAddressObjectEntityy : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "aoId": UUIDAttribute, 
         "aoGuid": UUIDAttribute, 
         "aoLevel": StringAttribute, 

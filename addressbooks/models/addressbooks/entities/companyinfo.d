@@ -10,7 +10,7 @@ class DCompanyInfoEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "knownAs": StringAttribute, 
         "languageId": UUIDAttribute, 
         "partyNumber": StringAttribute, 

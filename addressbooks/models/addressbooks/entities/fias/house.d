@@ -10,7 +10,7 @@ class DFiasHouseEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "houseId": UUIDAttribute,
         "houseGuid": StringAttribute,
         "aOGuid": UUIDAttribute,

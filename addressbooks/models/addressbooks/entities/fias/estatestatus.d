@@ -10,7 +10,7 @@ class DFiasEstateStatusEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "estStatId": UUIDAttribute,
         "backingTable_FiasEstateStatusRelationshipId": UUIDAttribute,
         "relationship_PrimaryCompanyContextRelationshipId": UUIDAttribute,

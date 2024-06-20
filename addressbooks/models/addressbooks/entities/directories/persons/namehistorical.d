@@ -10,7 +10,7 @@ class DDirPersonNameHistoricalEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "firstName": StringAttribute, 
         "lastNamePrefix": StringAttribute, 
         "lastName": StringAttribute, 

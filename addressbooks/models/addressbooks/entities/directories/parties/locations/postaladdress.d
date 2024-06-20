@@ -10,7 +10,7 @@ class DDirPartyLocationPostalAddressEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "attentionToAddressLine": StringAttribute,
         "isLocationOwner": StringAttribute,
         "isPostalAddress": BooleanAttribute,
