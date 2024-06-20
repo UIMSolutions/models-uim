@@ -15,7 +15,7 @@ class DTransportationInventoryFreightChargeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "accessorialChargeMasterCode": StringAttribute, //
         "shippingCarrierId": UUIDAttribute, //
         "shippingCarrierServiceId": UUIDAttribute, //

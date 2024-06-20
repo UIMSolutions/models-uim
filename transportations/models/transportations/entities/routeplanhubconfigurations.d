@@ -15,7 +15,7 @@ class DTransportationRoutePlanHubConfigurationEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "transportationHubId": UUIDAttribute, //
         "invoiceAccountType": StringAttribute, //
         "payingPartyRole": StringAttribute, //

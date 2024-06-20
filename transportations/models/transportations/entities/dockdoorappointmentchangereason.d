@@ -15,7 +15,7 @@ class DTransportationDockDoorAppointmentChangeReasonEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "reasonCode": StringAttribute, //
         "reasonDescription": StringAttribute, //
         "backingTable_TMSChangeReasonRelationshipId": UUIDAttribute, //

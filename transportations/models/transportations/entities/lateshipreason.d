@@ -15,7 +15,7 @@ class DTransportationLateShipReasonEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "reasonCode": StringAttribute, //
         "reasonDescription": StringAttribute, //
         "backingTable_TMSLateShipReasonRelationshipId": UUIDAttribute, //

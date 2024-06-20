@@ -15,7 +15,7 @@ class DTransportationAppointmentEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "appointmentSiteId": UUIDAttribute, //
         "appointmentWarehouseId": UUIDAttribute, //
         "appointmentWarehouseLocationId": UUIDAttribute, //

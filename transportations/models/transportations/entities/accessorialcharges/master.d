@@ -15,7 +15,7 @@ class DTransportationAccessorialChargeMasterEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "masterCode": StringAttribute, //
         "chargeMasterType": StringAttribute, //
         "masterDescription": StringAttribute, //

@@ -15,7 +15,7 @@ class DTransportationAccessorialChargeAssignmentEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "chargeAssignmentLevel": StringAttribute, //
         "willChargeCalculationIncludeTransportationDiscounts": StringAttribute, //
         "areChargeAssignmentCriteriaIgnored": StringAttribute, //
