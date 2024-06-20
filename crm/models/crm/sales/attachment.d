@@ -11,7 +11,7 @@ class DCRMSalesAttachment : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "salesLiteratureItemId": UUIDAttribute, // Unique identifier for the document."]),
         "createdOnBehalfBy": UUIDAttribute, //Unique identifier of the delegate user who created the salesliteratureitem."]),
         "modifiedOnBehalfBy": UUIDAttribute, //Unique identifier of the delegate user who last modified the salesliteratureitem."]),

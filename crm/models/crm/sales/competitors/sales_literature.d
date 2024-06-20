@@ -11,7 +11,7 @@ class DCRMCompetitorSalesLiterature : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "importSequenceNumber": IntegerAttribute, //Sequence number of the import that created this record."]),
         "overriddenCreatedOn": TimestampAttribute, //Date and time that the record was migrated."]),
         "timeZoneRuleVersionNumber": IntegerAttribute, //For internal use only."]),

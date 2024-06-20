@@ -10,7 +10,7 @@ class DCRMTransactionCategoryHierarchyElementEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UUIDAttribute, //Unique identifier of the delegate user who created the record."]),
         "modifiedOnBehalfBy": UUIDAttribute, //Unique identifier of the delegate user who modified the record."]),
         "organizationId": UUIDAttribute, // Unique identifier for the organization"]),

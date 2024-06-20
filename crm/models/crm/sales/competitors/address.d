@@ -12,7 +12,7 @@ class DCRMCompetitorAddress : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UUIDAttribute, //Unique identifier of the delegate user who created the competitor address."]),
         "modifiedOnBehalfBy": UUIDAttribute, //Unique identifier of the delegate user who last modified the competitor address."]),
         "importSequenceNumber": IntegerAttribute, //Sequence number of the import that created this record."]),
