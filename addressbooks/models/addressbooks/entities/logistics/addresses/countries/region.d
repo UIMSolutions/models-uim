@@ -10,7 +10,7 @@ class DLogisticsAddressCountryRegionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "countryRegion": StringAttribute, 
         "addressFormat": StringAttribute, 
         "timeZone": StringAttribute, 

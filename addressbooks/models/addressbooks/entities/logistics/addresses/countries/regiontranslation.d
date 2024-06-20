@@ -10,7 +10,7 @@ class DLogisticsAddressCountryRegionTranslationEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "countryRegionId": StringAttribute, 
         "languageId": StringAttribute, 
         "longName": StringAttribute, 

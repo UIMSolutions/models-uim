@@ -10,7 +10,7 @@ class DLogisticsAddressZipcodeJapanEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "cityId": StringAttribute,
         "streetName": StringAttribute,
         "zipCode": StringAttribute,

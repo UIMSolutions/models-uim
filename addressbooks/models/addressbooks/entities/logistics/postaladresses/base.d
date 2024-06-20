@@ -10,7 +10,7 @@ class DLogisticsPostalAddressBaseEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "address": StringAttribute,
         "apartment_RU": StringAttribute,
         "building_RU": StringAttribute,

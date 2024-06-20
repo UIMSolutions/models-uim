@@ -10,7 +10,7 @@ class DLogisticsAddressStreetEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "city": StringAttribute,
         "countryRegion": StringAttribute,
         "county": StringAttribute,

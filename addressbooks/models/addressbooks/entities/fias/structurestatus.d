@@ -10,7 +10,7 @@ class DFiasStructureStatusEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "strStatId": UUIDAttribute,
         "shortName": StringAttribute,
         "backingTable_FiasStructureStatusRelationshipId": UUIDAttribute,

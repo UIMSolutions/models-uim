@@ -10,7 +10,7 @@ class DLegalRepresentativeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "fiscalOrganization": StringAttribute,
         "fiscalOrganizationRootFiscalEstablishmentDataArea": StringAttribute,
         "fiscalOrganizationRootFiscalEstablishment": StringAttribute,

@@ -10,7 +10,7 @@ class DLogisticsAddressStateEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "countryRegionId": StringAttribute,
         "state": StringAttribute,
         "timeZone": StringAttribute,

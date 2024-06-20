@@ -10,7 +10,7 @@ class DLogisticsPostalAddressElectronicContactEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "internationalCallingCode": StringAttribute,
         "isInstantMessage": StringAttribute,
         "isMobile": StringAttribute,
