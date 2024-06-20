@@ -10,7 +10,7 @@ class DBOMVersionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "IsActive":	StringAttribute,
         "IsApproved":	StringAttribute,
         "ApproverId":	StringAttribute,

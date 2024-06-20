@@ -10,7 +10,7 @@ class DPDSRegionalsRestrictedProductListEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
       ])
       .registerPath("pim_pds.regionals.restricted.productlists");
   }

@@ -10,7 +10,7 @@ class DBOMHeaderEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "IsApproved": StringAttribute, 
         "ApproverId": UUIDAttribute, 
         "BOMId": UUIDAttribute, 

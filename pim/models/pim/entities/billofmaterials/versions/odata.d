@@ -10,7 +10,7 @@ class DBOMVersionODataEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "ApproverId": UUIDAttribute.  
         "ApproverPersonnelNumber": StringAttribute.  
         "BOMId": UUIDAttribute.  

@@ -10,7 +10,7 @@ class DBOMVersionDocumentAttachementEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "DocumentId":	StringAttribute, 
         "DocumentAttachmentTypeCode":	StringAttribute, 
         "AttachmentDescription":	StringAttribute, 

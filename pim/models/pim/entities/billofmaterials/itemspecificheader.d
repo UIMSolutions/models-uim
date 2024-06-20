@@ -10,7 +10,7 @@ class DBOMItemSpecificHeaderEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "IsApproved":	StringAttribute,
         "IsActive":	StringAttribute,
         "ApproverId":	StringAttribute,

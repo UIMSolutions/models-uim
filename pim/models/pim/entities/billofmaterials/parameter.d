@@ -10,7 +10,7 @@ class DBOMParameterEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "CircularityCheckLevel": StringAttribute,
         "MaximumBOMLevel": StringAttribute,
         "AreQuantitiesOnBOMLinesAndDatesOnBOMVersionMandatory": StringAttribute,

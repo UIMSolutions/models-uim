@@ -10,7 +10,7 @@ class DPDSItembatchesAttributeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
       ])
       .registerPath("pim_pds.itembatches.attributes");
   }

@@ -10,7 +10,7 @@ class DBOMLineEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "ConsumptionType": StringAttribute, 
         "BOMId": UUIDAttribute, 
         "Quantity": StringAttribute, 

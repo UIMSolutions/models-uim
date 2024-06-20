@@ -10,7 +10,7 @@ class DPDSRegionalsRegulatedProductEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
       ])
       .registerPath("pim_pds.regionals.regulated.products");
   }
