@@ -10,7 +10,7 @@ class DLogisticsAddressFormatLinesEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "addressFormat": StringAttribute,
         "lineNumber": StringAttribute,
         "addressApplicationObject": StringAttribute,

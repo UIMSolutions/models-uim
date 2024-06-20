@@ -11,7 +11,7 @@ class DLogisticsLocationRoleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "kanjiCity": StringAttribute,
         "cityRecId": StringAttribute,
         "countryRegionId": StringAttribute,

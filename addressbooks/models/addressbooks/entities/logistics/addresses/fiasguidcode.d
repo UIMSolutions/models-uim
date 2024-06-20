@@ -10,7 +10,7 @@ class DLogisticsAddressFiasIdCodeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "fiasGuidId": StringAttribute,
         "fiasParentGuidId": StringAttribute,
         "refRecId": StringAttribute,

@@ -10,7 +10,7 @@ class DLogisticsAddressFormatEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "addressFormat": StringAttribute,
         "backingTable_LogisticsAddressFormatHeadingRelationshipId": StringAttribute,
       ])

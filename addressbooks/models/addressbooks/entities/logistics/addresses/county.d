@@ -10,7 +10,7 @@ class DLogisticsAddressCountyEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "countryRegionId": StringAttribute,
         "stateId": StringAttribute,
         "countyId": StringAttribute,
