@@ -10,7 +10,7 @@ class DBranchEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "vendorAccount": StringAttribute, //
         "alcoholRegulationAuthority": StringAttribute, //
         "separateDivisionId": UUIDAttribute, //

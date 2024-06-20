@@ -10,7 +10,7 @@ class DWMSContainerGroupDetailEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "containerTypeId": UUIDAttribute, //
         "containerUtilizationPercentage": StringAttribute, //
         "containerGroupId": UUIDAttribute, //

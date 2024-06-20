@@ -10,7 +10,7 @@ class DBOMConfigurationGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "GroupId":	StringAttribute, 
         "GroupName":	StringAttribute, 
         "BackingTable_ConfigGroupRelationshipId":	StringAttribute, 

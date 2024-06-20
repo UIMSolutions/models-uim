@@ -10,7 +10,7 @@ class DWMSContainerMixingConstraintBaseEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "constraintTableId": UUIDAttribute, //
         "constraintTableName": StringAttribute, //
         "containerBuildTemplateId": UUIDAttribute, //

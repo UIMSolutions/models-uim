@@ -15,7 +15,7 @@ class DTransportationFreightBillTypeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "freightEngineAssemblyName": StringAttribute, //
         "freightEngineClassName": StringAttribute, //
         "typeId": UUIDAttribute, //

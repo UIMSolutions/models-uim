@@ -15,7 +15,7 @@ class DTransportationFreightInvoiceHeaderEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "shippingCarrierVendorAccountNumber": StringAttribute, 
         "destinationCountryRegionId": UUIDAttribute, 
         "isInvoiceAutomaticallyMatched": StringAttribute, 

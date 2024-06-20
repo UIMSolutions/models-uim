@@ -10,7 +10,7 @@ class DFIASOperationStatusesEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "fiasOperationType_RU": StringAttribute, 
         "operationDescription": StringAttribute, 
         "operationStatus": StringAttribute, 

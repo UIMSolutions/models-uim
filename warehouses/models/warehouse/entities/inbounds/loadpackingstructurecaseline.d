@@ -10,7 +10,7 @@ class DWHSInboundLoadPackingStructureCaseLineEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "inboundShipmentId": UUIDAttribute, //
         "packingStructureLicensePlateNumber": StringAttribute, //
         "description": StringAttribute, //

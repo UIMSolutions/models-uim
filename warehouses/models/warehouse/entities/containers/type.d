@@ -10,7 +10,7 @@ class DWMSContainerTypeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "typeId": UUIDAttribute, //
         "typeDescription": StringAttribute, //
         "maximumContainerizationHeight": StringAttribute, //

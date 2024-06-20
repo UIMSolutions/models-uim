@@ -10,7 +10,7 @@ class DWMSInboundLoadHeaderEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "shippingCarrierCode": StringAttribute, // 
         "aactualGrossWeight": StringAttribute, // 
         "actualNetWeight": StringAttribute, // 
