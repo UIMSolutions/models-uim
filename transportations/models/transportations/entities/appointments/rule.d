@@ -15,7 +15,7 @@ class DTransportationAppointmentRuleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "itemMovementDirectionRule": StringAttribute, //
         "maximumAppointmentsAllowed": StringAttribute, //
         "appointmentRuleId": UUIDAttribute, //

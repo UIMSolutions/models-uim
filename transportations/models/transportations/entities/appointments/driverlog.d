@@ -15,7 +15,7 @@ class DTransportationAppointmentDriverLogEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "actualAppointmentEndDateTime": StringAttribute, //
         "actualAppointmentStartDateTime": StringAttribute, //
         "appointmentId": UUIDAttribute, //

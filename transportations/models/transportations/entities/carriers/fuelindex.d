@@ -15,7 +15,7 @@ class DTransportationCarrierFuelIndexEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "indexCode": StringAttribute, //
         "indexDescription": StringAttribute, //
         "backingTable_TMSCarrierFuelIndexTableRelationshipId": UUIDAttribute, //

@@ -15,7 +15,7 @@ class DTransportationFreightBillTypeAssignmentEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "shippingCarrierId": UUIDAttribute, //
         "productMovementDirectionRule": StringAttribute, //
         "freightBillTypeId": UUIDAttribute, //

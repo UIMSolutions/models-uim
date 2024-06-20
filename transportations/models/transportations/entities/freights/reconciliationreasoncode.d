@@ -15,7 +15,7 @@ class DTransportationFreightReconciliationReasonCodeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "reasonDescription": StringAttribute, // 
         "reasonCode": StringAttribute, // 
         "creditMainAccountId": UUIDAttribute, // 

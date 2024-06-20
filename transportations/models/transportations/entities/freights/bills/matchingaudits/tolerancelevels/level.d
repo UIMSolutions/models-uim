@@ -15,7 +15,7 @@ class DTransportationFreightBillMatchingAuditToleranceLevelEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "underpaymentFreightBillReconcilliationReasonCode": StringAttribute, // 
         "toleranceLevelId": UUIDAttribute, // 
         "maximumAuditToleranceUnitType": StringAttribute, // 

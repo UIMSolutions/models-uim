@@ -15,7 +15,7 @@ class DTransportationCustomerShippingCarrierCustomerAccountEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "customerAccountNumber": StringAttribute, //
         "shippingCarrierCustomerAccountNumber": StringAttribute, //
         "shippingCarrierId": UUIDAttribute, //

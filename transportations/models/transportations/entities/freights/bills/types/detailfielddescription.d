@@ -15,7 +15,7 @@ class DTransportationFreightBillTypeDetailEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "freightBillDetailFieldDescription": StringAttribute, //
         "freightBillTypeId": UUIDAttribute, //
         "freightBillLineFieldName": StringAttribute, //

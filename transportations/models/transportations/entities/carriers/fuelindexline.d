@@ -15,7 +15,7 @@ class DTransportationCarrierFuelIndexLineEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "carrierFuelIndexCode": StringAttribute, //
         "effectiveDateTime": StringAttribute, //
         "fromGallonPrice": StringAttribute, //

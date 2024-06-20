@@ -15,7 +15,7 @@ class DTransportationFreightBillDetailEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "accessorialChargeMasterCode": StringAttribute, //
         "billOfLadingId": UUIDAttribute, //
         "currencyCode": StringAttribute, //

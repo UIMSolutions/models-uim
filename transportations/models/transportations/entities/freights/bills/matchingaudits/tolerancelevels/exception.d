@@ -15,7 +15,7 @@ class DTransportationFreightBillMatchingAuditToleranceLevelExceptionEntity : DEn
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "freightBillMatchingAuditToleranceLevelId": UUIDAttribute, //
         "maximumAuditToleranceUnitType": StringAttribute, //
         "minimumAuditToleranceUnitType": StringAttribute, //
