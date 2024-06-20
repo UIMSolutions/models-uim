@@ -12,7 +12,7 @@ class DCRMEntitlementProduct : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "entitlementProductId": UUIDAttribute, // Unique identifier of the contacts for the entitlements."]),
         "importSequenceNumber": IntegerAttribute, //Sequence number of the import that created this record."]),
         "overriddenCreatedOn": StringAttribute, // Date and time that the record was migrated."]),

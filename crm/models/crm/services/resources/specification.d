@@ -12,7 +12,7 @@ class DCRMResourceSpecification : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "createdOnBehalfBy": StringAttribute, // Unique identifier of the delegate user who created the resourcespec."]),
         "modifiedOnBehalfBy": StringAttribute, // Unique identifier of the delegate user who last modified the resourcespec."]),
         "businessUnitId": UUIDAttribute, //Unique identifier of the business unit with which the resource specification is associated."]),

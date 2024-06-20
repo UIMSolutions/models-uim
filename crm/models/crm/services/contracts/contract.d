@@ -11,7 +11,7 @@ class DCRMContract : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UUIDAttribute, //Shows who created the record on behalf of another user."]),
         "modifiedOnBehalfBy": UUIDAttribute, //Shows who last updated the record on behalf of another user."]),
         "overriddenCreatedOn": UserIdAttribute, // Date and time that the record was migrated."]),
