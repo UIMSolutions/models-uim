@@ -15,7 +15,7 @@ class DTransportationFuelIndexRegionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "regionId": UUIDAttribute, //
         "regionName": StringAttribute, //
         "backingTable_TMSFuelIndexRegionRelationshipId": UUIDAttribute, //

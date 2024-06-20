@@ -15,7 +15,7 @@ class DTransportationFreightInvoiceLineEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "destinationCountryRegionId": UUIDAttribute, //
         "transportationBillingGroupId": UUIDAttribute, //
         "billOfLadingId": UUIDAttribute, //

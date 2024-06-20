@@ -15,7 +15,7 @@ class DTransportationShippingCarrierServiceGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "groupId": UUIDAttribute, //
         "groupName": StringAttribute, //
         "backingTable_TMSCarrierGroupRelationshipId": UUIDAttribute, //

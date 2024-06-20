@@ -15,7 +15,7 @@ class DTransportationShippingCarrierServiceEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "deliveryModeCode": StringAttribute, //
         "physicalLoadTemplateId": UUIDAttribute, //
         "shippingCarrierId": UUIDAttribute, //

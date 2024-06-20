@@ -15,7 +15,7 @@ class DTransportationShippingCarrierAccessorialChargeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "accessorialChargeMasterCode": StringAttribute, //
         "transportationBillingGroupId": UUIDAttribute, //
         "chargeId": UUIDAttribute, //

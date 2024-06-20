@@ -15,7 +15,7 @@ class DTransportationShippingCarrierRatingProfileEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "effectiveEndDateTime": StringAttribute, //
         "effectiveStartDateTime": StringAttribute, //
         "freightRateEngineId": UUIDAttribute, //

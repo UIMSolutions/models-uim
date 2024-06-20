@@ -15,7 +15,7 @@ class DTransportationShippingCarrierNumberSequenceEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "transportationGenericEngineCheckDigitCode": StringAttribute, //
         "endingSequenceNumber": StringAttribute, //
         "sequenceName": StringAttribute, //

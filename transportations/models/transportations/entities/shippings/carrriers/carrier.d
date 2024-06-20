@@ -15,7 +15,7 @@ class DTransportationShippingCarrierEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "isBroker": StringAttribute, //
         "isShippingCarrierActive": StringAttribute, //
         "isShippingCarrierRatingActive": StringAttribute, //

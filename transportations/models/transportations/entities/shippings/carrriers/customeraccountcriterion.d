@@ -15,7 +15,7 @@ class DTransportationShippingCarrierCustomerAccountCriterionEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "ShippingCarrierServiceId": UUIDAttribute, //
         "ShippingCarrierId": UUIDAttribute, //
         "ShippingSiteId": UUIDAttribute, //

@@ -10,7 +10,7 @@ class DWMSContainerGroupEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "containerGroupDescription": StringAttribute, //
         "containerGroupId": UUIDAttribute, //
         "backingTable_WHSContainerGroupRelationshipId": UUIDAttribute, //

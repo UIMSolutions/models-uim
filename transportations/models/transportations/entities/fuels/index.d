@@ -15,7 +15,7 @@ class DTransportationFuelIndexEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "effectiveDateTime": StringAttribute, //
         "fuelIndexRegionId": UUIDAttribute, //
         "gallonPrice": StringAttribute, //

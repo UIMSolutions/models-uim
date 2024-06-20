@@ -15,7 +15,7 @@ class DTransportationShippingCarrierPostalAddressEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "shippingCarrierId": UUIDAttribute, //
         "isPrimaryAddress": StringAttribute, //
         "addressLocationId": UUIDAttribute, //

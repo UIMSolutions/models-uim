@@ -10,7 +10,7 @@ class DWMSContainerBuildTemplate : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "isSplitPickingAllowed": BooleanAttribute, //
         "containerGroupId": UUIDAttribute, //
         "containerTemplateId": UUIDAttribute, //

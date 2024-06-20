@@ -15,7 +15,7 @@ class DTransportationShippingCarrierServiceGroupAssignmentEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "shippingCarrierServiceGroupId": UUIDAttribute, //
         "shippingCarrierId": UUIDAttribute, //
         "shippingCarrierServiceId": UUIDAttribute, //

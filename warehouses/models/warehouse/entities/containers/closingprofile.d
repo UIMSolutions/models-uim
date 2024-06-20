@@ -10,7 +10,7 @@ class DContainerClosingProfileEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "profileId": UUIDAttribute, //
         "finalShipmentWarehouseLocationId": UUIDAttribute, //
         "profileDescription": StringAttribute, //
