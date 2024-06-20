@@ -10,7 +10,7 @@ class DOMTeamMemberEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "childParty": StringAttribute, //		GAB/OMTeamMemberV2Entity
         "parentParty": StringAttribute, //		GAB/OMTeamMemberV2Entity
         "validFrom": StringAttribute, //		GAB/OMTeamMemberV2Entity

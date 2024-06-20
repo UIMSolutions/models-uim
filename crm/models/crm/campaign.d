@@ -11,13 +11,13 @@ class DCRMCampaign : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         CampaignIdAttribute, // Unique identifier of the campaign. 
         OwnerIdAttribute, // Owner Id 
         StateCodeAttribute, // Shows the status of the campaign. By default, campaigns are active and can't be deactivated. 
         StatusCodeAttribute, // Select the campaign's status. 
       ])
-      .addValues([
+      .addData([
         "createdOnBehalfBy": UUIDAttribute, //Shows who created the record on behalf of another user. 
         "modifiedOnBehalfBy": UUIDAttribute, //Shows who last updated the record on behalf of another user. 
         "overriddenCreatedOn": TimestampAttribute, //Date and time that the record was migrated. 

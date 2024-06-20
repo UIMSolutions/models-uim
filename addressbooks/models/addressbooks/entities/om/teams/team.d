@@ -10,7 +10,7 @@ class DDirNameAffixEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "Affix": StringAttribute, //		GAB/DirNameAffixEntity
         "Type": StringAttribute, //		GAB/DirNameAffixEntity
         "Description": StringAttribute, //		GAB/DirNameAffixEntity

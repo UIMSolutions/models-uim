@@ -11,7 +11,7 @@ import uim.entities;
     super.initialize(configSettings);
 
     this
-      .addValues([
+      .addData([
         "systemUserId":UUIDAttribute"datatype":"UUID", "descriptions":{}}`,
         "teamId":UUIDAttribute"datatype":"UUID", "descriptions":{}}`,
       ])

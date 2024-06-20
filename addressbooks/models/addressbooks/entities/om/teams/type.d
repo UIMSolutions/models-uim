@@ -10,7 +10,7 @@ class DOMTeamTypeEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "allowContact". StringAttribute, //		GAB/OMTeamTypeEntity
         "allowContractor". StringAttribute, //		GAB/OMTeamTypeEntity
         "allowCustomer". StringAttribute, //		GAB/OMTeamTypeEntity
