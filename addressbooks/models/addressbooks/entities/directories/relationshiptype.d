@@ -10,7 +10,7 @@ class DDirectoryPartyRelationshipEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "relationshipAToB":	StringAttribute, 
         "partyAType":	StringAttribute, 
         "symmetric":	StringAttribute, 

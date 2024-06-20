@@ -10,7 +10,7 @@ class DDirectoryExternalRoleEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "role": StringAttribute,
         "type":	StringAttribute,
         "backingTable_DirExternalRoleRelationshipId": UUIDAttribute,

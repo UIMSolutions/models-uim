@@ -10,7 +10,7 @@ class DDirPartyRelationshipEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "legalEntityDataArea": StringAttribute, 
         "relationshipType": StringAttribute, 
         "validFrom": StringAttribute, 

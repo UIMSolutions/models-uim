@@ -10,7 +10,7 @@ class DDirectoryPartyContactEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "partyNumber": StringAttribute, 
         "locationId": UUIDAttribute, 
         "type": StringAttribute, 

@@ -12,7 +12,7 @@ class DDirNameAffixEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "Affix":	StringAttribute,
         "Type":	StringAttribute,
         "BackingTable_DirNameAffixRelationshipId":	StringAttribute,

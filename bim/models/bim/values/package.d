@@ -1,1 +1,1 @@
-module models.bim.values
+module models.bim.values;

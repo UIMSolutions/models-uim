@@ -10,7 +10,7 @@ class DDirectoryParametersEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "key": StringAttribute,
         "nameSequence": StringAttribute,
         "deletePartiesWithNoRole": StringAttribute,
