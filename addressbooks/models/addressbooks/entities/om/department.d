@@ -10,7 +10,7 @@ class DOMDepartmentEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "partyType": StringAttribute,
         "knownAs": StringAttribute,
         "language": StringAttribute,

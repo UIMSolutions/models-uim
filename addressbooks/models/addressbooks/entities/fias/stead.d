@@ -10,7 +10,7 @@ class DFiasSteadEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "steadId": UUIDAttribute, 
         "parentId": UUIDAttribute, 
         "regionCode": StringAttribute, 

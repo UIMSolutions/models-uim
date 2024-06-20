@@ -10,7 +10,7 @@ class DOMOperatingUnitContactEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "partyNumber": StringAttribute,
         "locationId": StringAttribute,
         "type": StringAttribute,

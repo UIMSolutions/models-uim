@@ -10,7 +10,7 @@ class DOMCostCenterEntity : DEntity {
     super.initialize(configSettings);
 
     this
-      .addValues([ // individual values
+      .addData([ // individual values
         "nameAlias": StringAttribute,
         "partyNumber": StringAttribute,
         "addressBooks": StringAttribute,
