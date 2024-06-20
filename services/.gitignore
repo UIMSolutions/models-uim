@@ -1,0 +1,32 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+
+# DUB
+.dub
+docs.json
+dub.selections.json
+
+/model-services
+model-services.so
+model-services.dylib
+model-services.dll
+model-services.a
+model-services.lib
+model-services-test-*
+*.exe
+*.o
+*.obj
+*.lst
